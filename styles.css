@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: open Sans;
+}
+
+body{
+	background: #292826;
+	background-position: center center;
+	background-size: cover;
+	margin:0;
+	font-size: 12px;
+	font-size: 1.2rem;
+}
+
+.cabezal{
+
+	background:linear-gradient(to bottom, black , rgba(0, 0, 0, .0));
+	background-position: center center;
+	text-align: right;
+	padding: 0rem 14.5rem 0rem 14.5rem;
+	height: 10rem;
+	position: fixed;
+	width: 100%;
+	top:0;
+}
+
+.imagelogo{
+	height: 4rem;
+	margin-top: 3rem;
+	float: left;
+}
+
+.imagelogo img{
+	height: 100%;
+
+}
+
+.menu{
+	height: 4rem;
+	margin-top: 3rem;
+	float: right;
+}
+.menu ol li{
+	height: 100%;
+}
+
+#nav{
+	color:#ffffff;
+	font-size: 1.3rem;
+	letter-spacing: 0.3rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0rem 1rem;
+	display: inline-block; 
+	min-width: 5rem;
+	position: relative; 
+	text-align: right;
+}
+
+ol li{
+	display: inline-block;
+	list-style-type: none;
+
+}
+
+#nav:hover{
+	text-decoration: none;
+	color: #F7DC6F;
+}
+
+#logo{
+	width: 16rem;
+}
+
+.segundomenu{
+	position: absolute;
+	top: 1.5rem;
+	display: none;
+	left: 0;
+	color: white;
+	background-color: white;
+	text-align: left;
+	color:#1183B0;
+}
+
+nav ol li:hover .segundomenu{
+	display: block;
+	padding: 0;
+	line-height:3rem;
+	font-size: 1rem;
+}
+
+nav ol li:hover li{
+	width: 100%;
+	padding-top: 1rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-bottom: 1rem;
+}
+
+.segundomenu li:hover{
+	background-color: #292826;
+	color: white;
+}
+
+.logocolores{
+}
+
+main{
+	padding: 5rem;
+	margin: 1rem 10rem 10rem 10rem;
+	text-align: justify;
+}
+
+.slider1{
+	bottom: 0;
+	right: 4rem;
+	position: static;
+}
+
+.slider1 img{
+	width: 100%;
+} 
+
+main section div img{
+	width: 30rem;
+	position: center;
+}
+
+.video{
+	float: left;
+	margin-right: 4rem;
+	padding-bottom:7.5rem;
+
+}
+
+.iniciostext{
+	margin:4rem;
+	margin-bottom: 10rem;
+
+}
+
+h1{
+	font-size: 2rem;
+	letter-spacing: 4rem;
+	text-align: left;
+	padding-top: 2.7rem;
+	padding-bottom: 1.8rem;
+}
+h2{
+	font-size: 3rem;
+	letter-spacing: 2rem;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h4{
+	font-size: 1.5rem;
+	text-transform: uppercase;
+}
+
+h3{
+	margin:0;
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.columnas{
+	padding-right: 5rem;
+	margin-top: 5rem;
+}
+
+.column{
+	padding: 0 2rem;
+	border-right-style: dotted;
+	width: 25%;
+	margin-left: 3rem;
+	margin-right: -3rem;
+	float: left;
+	border-width: 0.13rem;	
+}
+
+.mascaraimagen{
+	width: 18rem;
+	height: 18rem;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: auto;
+	box-shadow: 0 0 1rem rgba(0, 0, 0, 0.54);
+	background-image: url("./bn4.jpg");
+	background-position: center center;
+	background-size: cover;
+	transition: transform 0.5s linear 0.5s;
+}
+
+.mascaraimagen img{
+	width: 100%;
+	height: 100%;
+}
+
+.mascaraimagen:hover{
+	background-image: url("./imagen-01.jpg");
+	transform: scale(1.1);
+	transition: transform 0.5s linear;
+
+}
+
+#back2{
+	background-image: url("./bn3.jpg");
+	background-position: center center;
+	background-size: cover;
+}
+
+#back2:hover{
+	background-image: url("./imagen-02.jpg");
+}
+#back3{
+	background-image: url("./bn2.jpg");
+	background-position: center center;
+	background-size: cover;
+}
+
+#back3:hover{
+	background-image: url("./imagen-03.jpg");
+}
+#back4{
+	background-image: url("./bn1.jpg");
+	background-position: center center;
+	background-size: cover;
+}
+
+#back4:hover{
+	background-image: url("./imagen-04.jpg");
+}
+.cleaner {
+	clear: both;
+}
+
+#history{
+	margin-top: 10rem;
+}
+
+.white{
+	color: white;
+}
+#home{
+	color: white;
+}
+#about{
+	color: white;
+}
+#history{
+	color: white;
+}
+#discography{
+	color: white;
+}
+#contact{
+	color: white;
+}
+#country{
+	color: white;
+}
+#discosok{
+	width: 90px;
+}
